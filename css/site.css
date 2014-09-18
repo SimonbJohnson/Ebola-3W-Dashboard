@@ -13,3 +13,7 @@ h1, h3 {
 .btn-sm {
     margin: 0px 0px 0px -15px;
 }
+
+#maptitle {
+    margin-left:15px;
+}
