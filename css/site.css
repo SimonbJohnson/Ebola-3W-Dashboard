@@ -9,3 +9,7 @@ h1, h3 {
 .leftdiv{
     min-width: 700px;
 }
+
+.btn-sm {
+    margin: 0px 0px 0px -15px;
+}
