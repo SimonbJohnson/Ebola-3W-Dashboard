@@ -44,7 +44,7 @@ country_chart.width(200).height(200)
         .colorAccessor(function(d, i){return i%4;});
 
 
-organisation_chart.width(350).height(600)
+organisation_chart.width(250).height(600)
         .dimension(cf.organisation)
         .group(organisation)
         .elasticX(true)
@@ -62,8 +62,12 @@ organisation_chart.width(350).height(600)
             ])
         .colorDomain([0,8])
         .colorAccessor(function(d, i){return i%8;});
+
+dc.dataCount("#count-info")
+	.dimension(cf)
+	.group(all);
         
-region_chart.width(750).height(330)
+region_chart.width(680).height(330)
         .dimension(cf.region)
         .group(region)
         .colors(['#DDDDDD', '#e51c23'])
