@@ -44,7 +44,7 @@ country_chart.width(250).height(250)
         .colorAccessor(function(d, i){return i%4;});
 
 
-organisation_chart.width(350).height(600)
+organisation_chart.width(300).height(600)
         .dimension(cf.organisation)
         .group(organisation)
         .elasticX(true)
