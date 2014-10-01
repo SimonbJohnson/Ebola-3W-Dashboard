@@ -82,14 +82,14 @@ region_chart.width(680).height(330)
         .overlayGeoJson(regions.features, "Regions", function (d) {
             return d.properties.NAME_REF;
         })
-        .projection(d3.geo.mercator().center([4,4]).scale(1400))
+        .projection(d3.geo.mercator().center([-4,4]).scale(1400))
         .title(function(d){
             return d.key;
         });
 dc.renderAll();  
 
 var projection = d3.geo.mercator()
-    .center([4,4])
+    .center([-4,4])
     .scale(1400);
 
 var path = d3.geo.path()
