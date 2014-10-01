@@ -17,7 +17,7 @@ var organisation = cf.organisation.group();
 var region = cf.region.group();
 var all = cf.groupAll();
 
-activity_chart.width(220).height(250)
+activity_chart.width(220).height(220)
         .dimension(cf.activity)
         .group(activity)
         .colors(['#ffe082',
@@ -32,7 +32,7 @@ activity_chart.width(220).height(250)
         .colorDomain([1,8])
         .colorAccessor(function(d, i){return i%7+1;});
 
-country_chart.width(220).height(250)
+country_chart.width(220).height(220)
         .dimension(cf.country)
         .group(country)
         .colors(['#0d5302',
