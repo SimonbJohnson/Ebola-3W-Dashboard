@@ -17,7 +17,7 @@ var organisation = cf.organisation.group();
 var region = cf.region.group();
 var all = cf.groupAll();
 
-activity_chart.width(200).height(200)
+activity_chart.width(250).height(250)
         .dimension(cf.activity)
         .group(activity)
         .colors(['#ffe082',
@@ -32,7 +32,7 @@ activity_chart.width(200).height(200)
         .colorDomain([1,8])
         .colorAccessor(function(d, i){return i%7+1;});
 
-country_chart.width(200).height(200)
+country_chart.width(250).height(250)
         .dimension(cf.country)
         .group(country)
         .colors(['#0d5302',
@@ -44,7 +44,7 @@ country_chart.width(200).height(200)
         .colorAccessor(function(d, i){return i%4;});
 
 
-organisation_chart.width(250).height(600)
+organisation_chart.width(350).height(600)
         .dimension(cf.organisation)
         .group(organisation)
         .elasticX(true)
@@ -67,7 +67,7 @@ dc.dataCount("#count-info")
 	.dimension(cf)
 	.group(all);
         
-region_chart.width(680).height(330)
+region_chart.width(400).height(350)
         .dimension(cf.region)
         .group(region)
         .colors(['#DDDDDD', '#e51c23'])
@@ -82,15 +82,15 @@ region_chart.width(680).height(330)
         .overlayGeoJson(regions.features, "Regions", function (d) {
             return d.properties.NAME_REF;
         })
-        .projection(d3.geo.mercator().center([4,4]).scale(1400))
+        .projection(d3.geo.mercator().center([-4,6.5]).scale(2200))
         .title(function(d){
             return d.key;
         });
 dc.renderAll();  
 
 var projection = d3.geo.mercator()
-    .center([4,4])
-    .scale(1400);
+    .center([-4,6.5])
+    .scale(2200);
 
 var path = d3.geo.path()
     .projection(projection);

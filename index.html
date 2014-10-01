@@ -26,38 +26,45 @@
         </script>            
     </head>
     <body>
-        <div class="container"><h1>Ebola 3W Dashboard </h1> <h3> - Who, What, Where</h3>
+        <div class="container">
             <div class="row">
-                <div class="col-md-9 leftdiv">
+                <div class="col-md-8 leftdiv">
+                    <h1>Ebola 3W Dashboard </h1> <h3> - Who, What, Where</h3>
                     <div class="row">
-                        <div class="col-xs-4">
-                            <p>OCHA 3W - 19th September - visualised. Click any chart or on the map to filter the data set.</p>
-                            <p>Created by Simon Johnson. Twitter: <a href="https://twitter.com/Simon_B_Johnson" target="_blank">@simon_b_Johnson</a></p>                                   
-                            <p>Sources: <a href="http://reliefweb.int/sites/reliefweb.int/files/resources/GIN_A4_L_140901_Ebola_3W_Reponse.pdf" target="_blank">1</a>, <a href="http://reliefweb.int/sites/reliefweb.int/files/resources/LBR_A4_3W_Ebola_20140903_Output.pdf" target="_blank">2</a>, <a href="http://reliefweb.int/sites/reliefweb.int/files/resources/SLE_A4_L_140904_v1_Ebola_3W_Reponse.pdf" target="_blank">3</a>, <a href="http://reliefweb.int/sites/reliefweb.int/files/resources/NGA_A4_3W_Ebola_20140904_Output.pdf" target="_blank">4</a></p>
-                            <div class="col-xs-4">
-                                <a class="reset btn btn-primary btn-sm" id="reset" href="javascript:dc.filterAll();dc.redrawAll();">Reset All</a>
-                            </div>                            
-                            <div id="count-info" class="col-xs-8">
-                                <span class="filter-count "></span> selected out of <span class="total-count "></span> records.
+                        <div class="col-md-7">
+                            <div class="row">
+                                <p>OCHA 3W - 19th September - visualised. Click any chart or on the map to filter the data set.</p>
+                                <p>Created by Simon Johnson. Twitter: <a href="https://twitter.com/Simon_B_Johnson" target="_blank">@simon_b_Johnson</a></p>                                   
+                                <p>Sources: <a href="http://reliefweb.int/sites/reliefweb.int/files/resources/GIN_A4_L_140901_Ebola_3W_Reponse.pdf" target="_blank">1</a>, <a href="http://reliefweb.int/sites/reliefweb.int/files/resources/LBR_A4_3W_Ebola_20140903_Output.pdf" target="_blank">2</a>, <a href="http://reliefweb.int/sites/reliefweb.int/files/resources/SLE_A4_L_140904_v1_Ebola_3W_Reponse.pdf" target="_blank">3</a>, <a href="http://reliefweb.int/sites/reliefweb.int/files/resources/NGA_A4_3W_Ebola_20140904_Output.pdf" target="_blank">4</a></p>
+                                <div class="col-xs-4">
+                                    <a class="reset btn btn-primary btn-sm" id="reset" href="javascript:dc.filterAll();dc.redrawAll();">Reset All</a>
+                                </div>                            
+                                <div id="count-info" class="col-xs-8">
+                                    <span class="filter-count "></span> selected out of <span class="total-count "></span> records.
+                                </div>
                             </div>
-                        </div>                        
-                        <div class="col-xs-4 piechart">
-                            <h4>Activities</h4>
-                            <div id="activity"></div>
+                            <div class="row">
+                                <h4>Map</h4>
+                                <div id="map"></div>
+                            </div>    
                         </div>
-                        <div class="col-xs-4 piechart">
-                            <h4>Countries</h4>
-                            <div id="country"></div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <h4 id="maptitle">Map</h4>
-                        <div class="col-md-12">
-                            <div id="map"></div>
-                        </div>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <div class="col-xs-12 piechart">
+                                    <h4>Activities</h4>
+                                    <div id="activity"></div>
+                                </div>
+                            </div>    
+                            <div class="row">    
+                                <div class="col-xs-12 piechart">
+                                    <h4>Countries</h4>
+                                    <div id="country"></div>
+                                </div>
+                            </div>    
+                        </div>    
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <h4>Organisation (Top 20)</h4>
                     <p>Sorted by the total number of times an organisation carries out an activity in separate regions.</p>
                     <div id="organisation"></div>
