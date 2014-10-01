@@ -6442,119 +6442,119 @@ var data =
   },
   {
     "Country":"Sierra Leone",
-    "Region":"Werstern Area",
+    "Region":"Western Area",
     "p-code":"SLE004000",
     "Organisation":"Catholic Agency For Overseas Development",
     "Activity":"Social Mobilisation"
   },
   {
     "Country":"Sierra Leone",
-    "Region":"Werstern Area",
+    "Region":"Western Area",
     "p-code":"SLE004000",
     "Organisation":"Catholic Relief Services",
     "Activity":"Social Mobilisation"
   },
   {
     "Country":"Sierra Leone",
-    "Region":"Werstern Area",
+    "Region":"Western Area",
     "p-code":"SLE004000",
     "Organisation":"Community Volonteers",
     "Activity":"Contact Tracing"
   },
   {
     "Country":"Sierra Leone",
-    "Region":"Werstern Area",
+    "Region":"Western Area",
     "p-code":"SLE004000",
     "Organisation":"Medecins sans Frontieres Belgique",
     "Activity":"Contact Tracing"
   },
   {
     "Country":"Sierra Leone",
-    "Region":"Werstern Area",
+    "Region":"Western Area",
     "p-code":"SLE004000",
     "Organisation":"Save the Children",
     "Activity":"Social Mobilisation"
   },
   {
     "Country":"Sierra Leone",
-    "Region":"Werstern Area",
+    "Region":"Western Area",
     "p-code":"SLE004000",
     "Organisation":"Ministry of Health",
     "Activity":"Coordination"
   },
   {
     "Country":"Sierra Leone",
-    "Region":"Werstern Area",
+    "Region":"Western Area",
     "p-code":"SLE004000",
     "Organisation":"Ministry of Health",
     "Activity":"Safe Burial"
   },
   {
     "Country":"Sierra Leone",
-    "Region":"Werstern Area",
+    "Region":"Western Area",
     "p-code":"SLE004000",
     "Organisation":"Ministry of Health",
     "Activity":"Social Mobilisation"
   },
   {
     "Country":"Sierra Leone",
-    "Region":"Werstern Area",
+    "Region":"Western Area",
     "p-code":"SLE004000",
     "Organisation":"Ministry of Health",
     "Activity":"Contact Tracing"
   },
   {
     "Country":"Sierra Leone",
-    "Region":"Werstern Area",
+    "Region":"Western Area",
     "p-code":"SLE004000",
     "Organisation":"United Nations Children's Fund",
     "Activity":"Coordination"
   },
   {
     "Country":"Sierra Leone",
-    "Region":"Werstern Area",
+    "Region":"Western Area",
     "p-code":"SLE004000",
     "Organisation":"United Nations Children's Fund",
     "Activity":"Social Mobilisation"
   },
   {
     "Country":"Sierra Leone",
-    "Region":"Werstern Area",
+    "Region":"Western Area",
     "p-code":"SLE004000",
     "Organisation":"United Nations Population Fund",
     "Activity":"Contact Tracing"
   },
   {
     "Country":"Sierra Leone",
-    "Region":"Werstern Area",
+    "Region":"Western Area",
     "p-code":"SLE004000",
     "Organisation":"World Food Programme",
     "Activity":"Logistics"
   },
   {
     "Country":"Sierra Leone",
-    "Region":"Werstern Area",
+    "Region":"Western Area",
     "p-code":"SLE004000",
     "Organisation":"World Food Programme",
     "Activity":"Logistics"
   },
   {
     "Country":"Sierra Leone",
-    "Region":"Werstern Area",
+    "Region":"Western Area",
     "p-code":"SLE004000",
     "Organisation":"World Food Programme",
     "Activity":"Logistics"
   },
   {
     "Country":"Sierra Leone",
-    "Region":"Werstern Area",
+    "Region":"Western Area",
     "p-code":"SLE004000",
     "Organisation":"World Health Organization",
     "Activity":"Coordination"
   },
   {
     "Country":"Sierra Leone",
-    "Region":"Werstern Area",
+    "Region":"Western Area",
     "p-code":"SLE004000",
     "Organisation":"World Health Organization",
     "Activity":"Social Mobilisation"
