@@ -21,3 +21,11 @@ h1, h3 {
 .container{
     width:1100px;
 }
+
+.dc-chart g.row text {
+    fill: black;
+}
+
+.dc-chart .pie-slice {
+    fill:black;
+}
