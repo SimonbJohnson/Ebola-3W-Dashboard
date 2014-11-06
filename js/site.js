@@ -69,7 +69,7 @@ dc.dataCount("#count-info")
 region_chart.width(400).height(350)
         .dimension(cf.region)
         .group(region)
-        .colors(['#DDDDDD', '#e51c23'])
+        .colors(['#DDDDDD', '#ff5722'])
         .colorDomain([0, 1])
         .colorAccessor(function (d) {
             if(d>0){
@@ -85,6 +85,7 @@ region_chart.width(400).height(350)
         .title(function(d){
             return d.key;
         });
+        
 dc.renderAll();  
 
 var projection = d3.geo.mercator()
