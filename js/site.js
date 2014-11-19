@@ -108,6 +108,7 @@ g.selectAll("path")
     .attr("class","country");
     
 var mapLabels = d3.selectAll("#map").select("svg").append("g");
+
 mapLabels.selectAll('text')
     .data(westafrica.features)
     .enter()
